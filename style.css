@@ -14,6 +14,101 @@
     font-family: Arvo;
 }
 
+nav {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  padding: 20px 0px;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.hero {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-main {
+  width: 35%;
+}
+
+.hero-main p {
+  margin: 20px;
+  margin-left: 0px;
+}
+
+.dark-blue-background .hero-img {
+  width: 500px;
+}
+
+.img-div {
+  width: 200px;
+}
+
+
+.info-div {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 500px;
+}
+
+.info-div .pics {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-div .info-header {
+  margin: 0px auto;
+}
+
+.quote-div {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-div div{
+  width: 50%;
+}
+
+.quote-div div span {
+  float: right;
+  font-size: 24px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+/* buttons */
+
+.dark-blue-background .sayhi-btn {
+  border: none;
+}
+
+.sayhi-btn {
+  background-color: #3882f6;
+  border: 1px solid white;
+  border-radius: 7px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 25px;
+}
+
 /* backgrounds */
 .dark-blue-background {
     background-color: #1f2937;
@@ -21,4 +116,42 @@
 
 .grey-background {
     background-color: #e5e7eb;
+}
+
+/* colors and fonts */
+
+.dark-blue-background .hero-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.dark-blue-background .hero-secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.dark-blue-background .hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.info-div .info-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+}
+
+.grey-background .quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  opacity: 0.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
